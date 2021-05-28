@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #171717;
+}
+.sec1 {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  height: 580px;
+  width: 900px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.left {
+  height: 580px;
+  width: 450px;
+  background-color: rgb(220 72 74);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.left h1 {
+  font-size: 11em;
+  color: #00000030;
+}
+.left h2 {
+  font-size: 4em;
+  color: #00000030;
+}
+.left img {
+  height: 500px;
+  position: absolute;
+  transform: rotate(-12deg);
+  top: 59px;
+  left: -114px;
+}
+.right {
+  height: 580px;
+  width: 450px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20px 0 50px;
+}
+.right h1 {
+  font-size: 2.5em;
+  color: #494344;
+}
+.right h3 {
+  font-size: 1em;
+  color: grey;
+}
+.right p {
+  padding: 18px 14px 25px 17px;
+  color: #4e4d4d;
+}
+.CTA {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.CTA span {
+  font-size: 2.5em;
+  font-weight: 700;
+  color: grey;
+}
+.CTA button {
+  width: 130px;
+  height: 53px;
+  color: white;
+  background-color: rgb(220 72 74);
+  border: none;
+  border-radius: 50px;
+  font-size: 1.1em;
+  font-weight: 600;
+}
